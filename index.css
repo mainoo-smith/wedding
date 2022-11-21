@@ -1,15 +1,19 @@
 body {
-    background-color: #570e0e;
-    margin: 40px;
+    background-color: #73081b;
+    margin: 5%;
     color: #fff;
-    font-family: serif;
+    font-family: 'Lato';
+    font-variant: normal;
+    border: 2px solid rgb(95, 73, 73);
+    border-radius: 8px;
+    padding: 5%
 }
 
 img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    border-radius: 8px;
+    padding: 1px;
     width: 150px;
+    box-shadow: 0.5px .5px 15px 5px rgb(95, 73, 73);
 }
 
 a {
@@ -20,6 +24,22 @@ div :nth-child(2) {
     margin-left: 30px;
 }
 
-@media screen and (min-width: 480){
-    
+@media screen and (min-width: 600px){
+    img {
+        border-radius: 8px;
+        padding: 1px;
+        width: 300px;
+        box-shadow: 0.5px .5px 15px 5px rgb(95, 73, 73);
+    }
+    body {
+        background-color: #73081b;
+        margin: 15%;
+        color: #fff;
+        font-family: 'Didot';
+        font-weight: 700;
+        font-size: large;
+    }
+    p strong {
+        font-size: x-large;
+    }
 }
